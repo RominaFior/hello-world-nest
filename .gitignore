@@ -34,3 +34,4 @@ lerna-debug.log*
 !.vscode/extensions.json
 # stryker temp files - Custom folder due to https://github.com/stryker-mutator/stryker/issues/2122
 stryker-tmp
+reports
