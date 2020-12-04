@@ -7,5 +7,11 @@
     "progress"
   ],
   "testRunner": "jest",
-  "coverageAnalysis": "off"
+  "coverageAnalysis": "off",
+  "mutate": [
+    "{src,lib}/**/!(*.+(s|S)pec|*.+(t|T)est).+(cjs|mjs|js|ts|jsx|tsx|html|vue)",
+    "!{src,lib}/**/__tests__/**/*.+(cjs|mjs|js|ts|jsx|tsx|html|vue)",
+    "!**/*-mocks.ts"
+  ],
+  "tempDirName": "stryker-tmp"
 }
